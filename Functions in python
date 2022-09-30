@@ -1,0 +1,20 @@
+"""a = 3
+b = 5
+c = sum((a, b)) # built-in function
+print(c)"""
+
+
+# def function1(a, b):
+#    print("This is function", a + b)
+# function1(3, 4)
+
+
+def function2(a, b):
+    """this is a function that calculate average of two numbers"""
+    average = (a + b) / 2
+    #    print(average)
+    return average
+
+
+v = function2(2, 5)
+print(v)
