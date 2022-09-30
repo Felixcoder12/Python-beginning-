@@ -1,0 +1,11 @@
+print("Enter first number")
+var1 = (input(""))
+print("Enter second number")
+var2 = (input(""))
+try:
+    print("The sum of these numbers is",
+          int(var1)+int(var2))
+except Exception as t:
+    print(t, "internet disconnected")
+
+print("This is an important code line")
